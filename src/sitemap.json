@@ -1,0 +1,12 @@
+{
+  "home": {
+    "link": "/",
+    "displayAs": "collection"
+  },
+  "guides": {
+    "link": "/guides"
+  },
+  "demo": {
+    "link": "/demo"
+  }
+}
