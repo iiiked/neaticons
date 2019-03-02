@@ -1,0 +1,34 @@
+{
+  "name": "neat-icons",
+  "version": "1.0.0",
+  "description": "Neat, morphable css-based icons",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next ./src",
+    "build": "next build ./src",
+    "start": "next start ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iiiked/neaticons.git"
+  },
+  "author": "iiiked",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iiiked/neaticons/issues"
+  },
+  "homepage": "https://github.com/iiiked/neaticons#readme",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "next": "^8.0.3",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4"
+  }
+}
