@@ -1,13 +1,13 @@
 import WrapperLayout from '../layouts/wrapper';
 import NavigationContainer from '../containers/navigation';
 
-const HeaderTemplate = () => {
+const HeaderTemplate = ({ page }) => {
   return (
     <header>
       <WrapperLayout maxWidth="1112px" justifyContent="space-between">
         
         <div>Leaf: Title</div>
-        <NavigationContainer />
+        <NavigationContainer page={page} />
       </WrapperLayout>
       <style jsx>{`
         header {
@@ -16,6 +16,7 @@ const HeaderTemplate = () => {
           height: 72px;
           border-bottom: 1px solid var(--color-blue--85);
           box-shadow: 0 4px 4px -2px var(--color-blue--95);
+          background: white;
         }
 
         div {

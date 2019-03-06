@@ -1,18 +1,15 @@
 import siteMap from '../sitemap.json';
 
 const initialState = {
-  count: 0,
+  collection: [],
+  selectedIcons: [],
   siteMap,
 };
 
 const reducer = (state, action) => {
   switch (action.type) {
-    case 'RESET':
-      return initialState;
-    case 'INCREMENT':
-      return { ...state, count: state.count + 1 };
-    case 'DECREMENT':
-      return { ...state, count: state.count - 1 };
+    case 'POPULATE_COLLECTION':
+      return { ...state, collection: action.payload };
     default:
       return state;
   }

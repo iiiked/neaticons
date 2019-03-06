@@ -75,7 +75,7 @@
 
 /* VARIABLES */
 :root {
-  --icon-size: 128px;
+  --icon-size: 48px;
   --icon-transition-time: .2s;
   --cursor: pointer;
   --color-primary: #5490f7;
